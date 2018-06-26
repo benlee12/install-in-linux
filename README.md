@@ -2,6 +2,7 @@
 install code in linux
 
 pcl
+
      sudo apt-get install libpcl-dev 
 
 boost
@@ -26,4 +27,8 @@ VTK
 
 opencv3.1 deps
 
-sudo apt-get install build-essential libgtk2.0-dev libvtk5-dev libjpeg-dev libtiff5-dev libjasper-dev libopenexr-dev libtbb-dev
+    sudo apt-get install build-essential libgtk2.0-dev libvtk5-dev libjpeg-dev libtiff5-dev libjasper-dev libopenexr-dev libtbb-dev
+
+mesa
+
+    sudo apt-get install mesa-common-dev mesademos libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev
