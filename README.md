@@ -37,6 +37,7 @@ OpenBLAS
     sudo apt-get install libopenblas-dev liblapack-dev 
     
 openni2
+
     sudo apt-get install -y g++ python libusb-1.0-0-dev freeglut3-dev doxygen graphviz
     sudo apt-get install libudev-dev 
     apt-cache search openni2
