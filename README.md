@@ -42,3 +42,8 @@ openni2
     sudo apt-get install libudev-dev 
     apt-cache search openni2
     sudo apt-get install libopenni2-dev 
+    
+nivdia driver
+
+    https://www.geforce.cn/drivers
+    sudo apt-get install nvidia-384
