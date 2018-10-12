@@ -47,3 +47,14 @@ nvidia driver
 
     https://www.geforce.cn/drivers
     sudo apt-get install nvidia-384
+    
+gcc g++ version
+
+    cd /usr/bin
+    sudo apt-get install -y gcc-4.8
+    sudo apt-get install -y g++-4.8
+    sudo rm gcc 
+    sudo rm g++ 
+    sudo ln -s gcc-4.8 gcc
+    sudo ln -s g++-4.8 g++
+
