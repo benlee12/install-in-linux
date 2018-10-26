@@ -57,4 +57,29 @@ gcc g++ version
     sudo rm g++ 
     sudo ln -s gcc-4.8 gcc
     sudo ln -s g++-4.8 g++
+    
+cuda
 
+    if [[ $version == *"14.04"* ]] ; then
+         wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
+         sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
+         rm cuda-repo-ubuntu1404_7.5-18_amd64.deb
+         sudo apt-get update
+         sudo apt-get install cuda-7-5
+     elif [[ $version == *"15.04"* ]] ; then
+         wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1504/x86_64/cuda-repo-ubuntu1504_7.5-18_amd64.deb
+         sudo dpkg -i cuda-repo-ubuntu1504_7.5-18_amd64.deb
+         rm cuda-repo-ubuntu1504_7.5-18_amd64.deb
+         sudo apt-get update
+         sudo apt-get install cuda-7-5
+     elif [[ $version == *"16.04"* ]] ; then
+         wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
+         sudo dpkg -i cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
+         rm cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
+         sudo add-apt-repository ppa:openjdk-r/ppa 
+         sudo apt-get update
+         sudo apt-get install cuda-8-0
+     else
+         echo "Don't use this on anything except 14.04, 15.04, or 16.04"
+         exit
+     fi
