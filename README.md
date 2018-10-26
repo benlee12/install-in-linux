@@ -43,11 +43,6 @@ openni2
     apt-cache search openni2
     sudo apt-get install libopenni2-dev 
     
-nvidia driver
-
-    https://www.geforce.cn/drivers
-    sudo apt-get install nvidia-384
-    
 gcc g++ version
 
     cd /usr/bin
