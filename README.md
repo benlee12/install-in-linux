@@ -32,9 +32,14 @@ opencv3.1 deps
 mesa
 
     sudo apt-get install mesa-common-dev mesademos libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev
+    
 OpenBLAS
 
     sudo apt-get install libopenblas-dev liblapack-dev 
+    
+opencl
+
+    sudo apt-get install beignet-dev
     
 openni2
 
