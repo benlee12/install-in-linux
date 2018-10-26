@@ -1,5 +1,5 @@
-# install-in-linux 16.04.4
-install code in linux
+# install-in-ubuntu 16.04.4
+install code in ubuntu
 
 pcl
 
