@@ -1,9 +1,13 @@
 # install-in-ubuntu 16.04.4
-install code in ubuntu
+[[install code in ubuntu]]
+
+system update
+
+    sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
 
 pcl
 
-     sudo apt-get install libpcl-dev 
+    sudo apt-get install libpcl-dev 
 
 boost
 
