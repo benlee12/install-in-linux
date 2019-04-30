@@ -94,4 +94,5 @@ cuda
      fi
      
 python opendr
+
      pip install opendr==0.77
