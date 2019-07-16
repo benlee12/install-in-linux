@@ -100,3 +100,16 @@ python opendr
 ros-kinetic
      
      sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+     sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
+     sudo apt-get update
+     sudo apt-get install ros-kinetic-desktop-full
+     sudo rosdep init
+     rosdep update
+     echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+     source ~/.bashrc
+     
+pycharm-community     
+     
+     sudo add-apt-repository ppa:mystic-mirage/pycharm
+     sudo apt update
+     sudo apt install pycharm-community
